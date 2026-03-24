@@ -15,11 +15,11 @@ function Header() {
       </div>
       <nav className={styles.right}>
         <ul>
-          <li><a href="#">Premium</a></li>
-          <li><a href="#">Suporte</a></li>
-          <li><a href="#">Baixar</a></li>
+          <li><a href="/premium">Premium</a></li>
+          <li><a href="/suporte">Suporte</a></li>
+          <li><a href="/download">Baixar</a></li>
           <span className={styles.divider}>|</span>
-          <li><a href="#">Instalar Aplicativo</a></li>
+          <li><a href="/download">Instalar Aplicativo</a></li>
           <li><a href="#">Inscrever-se</a></li>
           <li><a href="#" className={styles.btn_login}>Entrar</a></li>
         </ul>

@@ -25,15 +25,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 235px;
-    padding-right: 260px;
+    padding: 20px 1%;
     background: rgba(0,0,0,0.8);
     top:0;
     width: 100%;
-    height: 72px;
+    height: 65px;
 }
 .logo{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: var(--spotify-green);
 }
@@ -42,22 +41,55 @@ body{
     list-style: none;
 }
 .header nav ul li{
-    margin: 0 23px;
+    margin: 0 15px;
 }
 .header nav ul li a{
     color:var(--spotify-white);
     text-decoration: none;
     transition: 0.3s;
 }
-.header nav ul li a:hover {
-    color: var(--spotify-green-hover);
+.header nav ul li a:not(.btn-login):hover{
+    color: var(--spotify-white);
+     font-size: 1.0rem;
+
+}
+
+/* botão entrar */
+.btn-login{
+    background: var(--spotify-green);
+    color: black;
+    padding: 20px 35px;
+    border-radius: 50px;
+    font-weight: bold;
 }
 .divider{
-    color: var(--spotify-white);
+    color: var(--spotify-light-gray);
 }
 .logo{
     width: 50px;
     height: 50px;
+}
+.btn_login {
+  background: var(--spotify-green);
+  color: black !important;
+  padding: 18px 32px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.btn_login:hover {
+  background: var(--spotify-green);
+  transform: scale(1.05);
+}
+.left {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
 }
 
 

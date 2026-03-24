@@ -13,8 +13,8 @@ function Header() {
       <nav className={styles.right}>
         <ul>
           <li><a href="#">Planos Premium</a></li> {/* Não é link, alterar como o do spotify original */}
-          <li><a href="#">Suporte</a></li>
-          <li><a href="#">Baixar</a></li>
+          <li><a href="/suporte">Suporte</a></li>
+          <li><a href="/download">Baixar</a></li>
           <span className={styles.divider}>|</span>
           <li><a href="#">Inscrever-se</a></li>
           <li><a href="#">Entrar</a></li>
