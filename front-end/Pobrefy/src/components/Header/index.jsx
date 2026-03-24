@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import styles from "./Header.module.css";
 import logo from '../../assets/spotifyfavicon.png'
+import homeIcon from '../../assets/homeicon.png'
 
 function Header() {
   return (
@@ -10,7 +11,7 @@ function Header() {
         <img src={logo} alt="pobrefy" className={styles.logo} />
       </Link>
       <button className={styles.btn_home}>
-        <img src={""} alt="home" />
+        <img src={homeIcon} alt="home" />
       </button>
       </div>
       <nav className={styles.right}>

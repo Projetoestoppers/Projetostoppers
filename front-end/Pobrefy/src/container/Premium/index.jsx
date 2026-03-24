@@ -5,9 +5,11 @@ import logo from '../../assets/spotifyfavicon.png'
 function Header() {
   return (
     <header className={styles.header}>
+      {/* ESQUERDA: logo + links de navegação */}
       <div className={styles.left}>
-      <Link to="/">
+      <Link to="/" className={styles.brand}>
         <img src={logo} alt="pobrefy" className={styles.logo} />
+         <span className={styles.brandText}>pobrefy</span>
       </Link>
       </div>
       <nav className={styles.right}>

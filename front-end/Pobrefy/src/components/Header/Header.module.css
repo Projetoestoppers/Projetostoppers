@@ -79,4 +79,28 @@ nav ul li a:not(.btn-login):hover{
   background: #f0f0f0;
   transform: scale(1.05);
 }
+.btn_home {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.btn_home :hover{
+    background: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.btn_home img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1); /* deixa branco se a imagem for preta */
+}
+.left {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
 

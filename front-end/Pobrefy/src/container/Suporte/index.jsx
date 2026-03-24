@@ -7,9 +7,10 @@ function Header() {
     <header className={styles.header}>
       {/* ESQUERDA: logo + links de navegação */}
       <div className={styles.left}>
-        <Link to="/">
-          <img src={logo} alt="pobrefy" className={styles.logo} />
-        </Link>
+      <Link to="/" className={styles.brand}>
+        <img src={logo} alt="pobrefy" className={styles.logo} />
+         <span className={styles.brandText}>pobrefy</span>
+      </Link>
         <nav>
           <ul>
             <li><a href="/premium">Premium</a></li>
