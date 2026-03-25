@@ -2,18 +2,24 @@ import { Link } from 'react-router-dom'
 import styles from "./Header.module.css";
 import logo from '../../assets/spotifyfavicon.png'
 import homeIcon from '../../assets/homeicon.png'
+import SearchBar from '../Header/searchbar.jsx'
 
 function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.left}>
-      <Link to="/">
-        <img src={logo} alt="pobrefy" className={styles.logo} />
-      </Link>
-      <button className={styles.btn_home}>
-        <img src={homeIcon} alt="home" />
-      </button>
+        <Link to="/">
+          <img src={logo} alt="pobrefy" className={styles.logo} />
+        </Link>
+        <button className={styles.btn_home}>
+          <img src={homeIcon} alt="home" />
+        </button>
       </div>
+
+      <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-start', paddingLeft: '16px' }}>
+        <SearchBar />
+      </div>
+
       <nav className={styles.right}>
         <ul>
           <li><a href="/premium">Premium</a></li>
