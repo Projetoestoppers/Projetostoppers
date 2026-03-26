@@ -1,0 +1,40 @@
+/* VARIAVEIS GLOBAIS - PALETA SPOTIFY */
+:root{
+  --spotify-green: #1DB954;      /* verde principal */
+  --spotify-green-hover: #1ed760;
+
+  --spotify-black: #121212;      /* fundo principal */
+  --spotify-dark-gray: #181818;  /* cards e containers */
+  --spotify-gray: #282828;       /* sidebar / player */
+
+  --spotify-light-gray: #b3b3b3; /* textos secundários */
+  --spotify-white: #ffffff;      /* textos principais */
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background: var(--spotify-black);
+    color:var(--spotify-white);
+}
+
+
+.logo{
+    width: 50px;
+    height: 50px;
+     justify-content: center;
+  align-items: center;
+  margin-top: auto;
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centraliza vertical */
+  align-items: center;     /* centraliza horizontal */
+  height: 100vh;
+}

@@ -18,8 +18,8 @@ function Header() {
           <li><a href="/suporte">Suporte</a></li>
           <li><a href="/download">Baixar</a></li>
           <span className={styles.divider}>|</span>
-          <li><a href="#">Inscrever-se</a></li>
-          <li><a href="#">Entrar</a></li>
+          <li><a href="signup">Inscrever-se</a></li>
+          <li><a href="login">Entrar</a></li>
         </ul>
       </nav>
     </header>

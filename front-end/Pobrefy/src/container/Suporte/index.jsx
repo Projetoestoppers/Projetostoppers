@@ -21,8 +21,8 @@ function Header() {
       {/* DIREITA: ações de conta */}
       <nav className={styles.right}>
         <ul>
-          <li><a href="#">Inscrever-se</a></li>
-          <li><a href="#" className={styles.btn_login}>Entrar</a></li>
+          <li><a href="signup">Inscrever-se</a></li>
+          <li><a href="login" className={styles.btn_login}>Entrar</a></li>
         </ul>
       </nav>
     </header>

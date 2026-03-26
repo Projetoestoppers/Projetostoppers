@@ -1,5 +1,5 @@
-function Home() {
-  return <div>Home</div>
+function login() {
+  return <div>gdg</div>
 }
 
-export default Home 
+export default login 

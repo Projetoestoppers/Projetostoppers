@@ -22,8 +22,8 @@ function Header() {
           <li><a href="/download">Baixar</a></li>
           <span className={styles.divider}>|</span>
           <li><a href="#">Instalar Aplicativo</a></li>
-          <li><a href="#">Inscrever-se</a></li>
-          <li><a href="#" className={styles.btn_login}>Entrar</a></li>
+          <li><a href="signup">Inscrever-se</a></li>
+          <li><a href="login" className={styles.btn_login}>Entrar</a></li>
         </ul>
       </nav>
     </header>
